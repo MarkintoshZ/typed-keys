@@ -270,6 +270,14 @@ type Comb3<A, B, C> = A extends infer U
   : never;
 type KeyModifier3 = Comb3<KeyModifier, KeyModifier, KeyModifier>;
 
+type KeyboardEvent = {
+  ctrlKey: boolean;
+  shiftKey: boolean;
+  altKey: boolean;
+  metaKey: boolean;
+  code: string;
+}
+
 /**
  * @summary checks if a keyboard input event matches a `KeyCombination` or at
  * least one in the list of `KeyCombination` supplied.

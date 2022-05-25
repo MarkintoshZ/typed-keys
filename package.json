@@ -1,6 +1,6 @@
 {
   "name": "typed-keys",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Handle keyboard input with type hints!",
   "main": "dist/scribbled.js",
   "module": "lib/index.js",

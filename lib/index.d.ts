@@ -136,6 +136,13 @@ declare type KeyModifier2 = Comb2<KeyModifier, KeyModifier>;
  */
 declare type Comb3<A, B, C> = A extends infer U ? B extends infer V ? C extends infer W ? U extends V ? never : V extends W ? never : `${StringLike<U>}+${StringLike<V>}` : never : never : never;
 declare type KeyModifier3 = Comb3<KeyModifier, KeyModifier, KeyModifier>;
+declare type KeyboardEvent = {
+    ctrlKey: boolean;
+    shiftKey: boolean;
+    altKey: boolean;
+    metaKey: boolean;
+    code: string;
+};
 /**
  * @summary checks if a keyboard input event matches a `KeyCombination` or at
  * least one in the list of `KeyCombination` supplied.
