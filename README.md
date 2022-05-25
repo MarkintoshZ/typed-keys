@@ -7,11 +7,10 @@
 ## Example
 
 ```javascript
+import { matchKeys } from "typed-keys";
+
 // returns true if the keyboard input event is the key R
 matchKeys(e, "R");
-```
-
-```javascript
 // check for multiple key combinations
 matchKeys(e, ["Ctrl+P", "Shift+Alt+K"]);
 ```
