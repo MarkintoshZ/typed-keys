@@ -6,111 +6,111 @@
  * matchKeys(e, 'Shift+Ctrl+D')
  */
 
-type KeyModifier = "Shift" | "Ctrl" | "Alt" | "Meta";
+type KeyModifier = 'Shift' | 'Ctrl' | 'Alt' | 'Meta';
 
-type AltLeft = "AltLeft";
-type AltRight = "AltRight";
-type ArrowDown = "ArrowDown";
-type ArrowLeft = "ArrowLeft";
-type ArrowRight = "ArrowRight";
-type ArrowUp = "ArrowUp";
-type Backquote = "Backquote";
-type Backslash = "Backslash";
-type Backspace = "Backspace";
-type BracketLeft = "BracketLeft";
-type BracketRight = "BracketRight";
-type CapsLock = "CapsLock";
-type Comma = "Comma";
-type ContextMenu = "ContextMenu";
-type ControlLeft = "ControlLeft";
-type ControlRight = "ControlRight";
-type Delete = "Delete";
-type Digit0 = "Digit0";
-type Digit1 = "Digit1";
-type Digit2 = "Digit2";
-type Digit3 = "Digit3";
-type Digit4 = "Digit4";
-type Digit5 = "Digit5";
-type Digit6 = "Digit6";
-type Digit7 = "Digit7";
-type Digit8 = "Digit8";
-type Digit9 = "Digit9";
-type End = "End";
-type Enter = "Enter";
-type Equal = "Equal";
-type Escape = "Escape";
-type F1 = "F1";
-type F2 = "F2";
-type F3 = "F3";
-type F4 = "F4";
-type F5 = "F5";
-type F6 = "F6";
-type F7 = "F7";
-type F8 = "F8";
-type F9 = "F9";
-type F10 = "F10";
-type F11 = "F11";
-type F12 = "F12";
-type Home = "Home";
-type Insert = "Insert";
-type KeyA = "KeyA";
-type KeyB = "KeyB";
-type KeyC = "KeyC";
-type KeyD = "KeyD";
-type KeyE = "KeyE";
-type KeyF = "KeyF";
-type KeyG = "KeyG";
-type KeyH = "KeyH";
-type KeyI = "KeyI";
-type KeyJ = "KeyJ";
-type KeyK = "KeyK";
-type KeyL = "KeyL";
-type KeyM = "KeyM";
-type KeyN = "KeyN";
-type KeyO = "KeyO";
-type KeyP = "KeyP";
-type KeyQ = "KeyQ";
-type KeyR = "KeyR";
-type KeyS = "KeyS";
-type KeyT = "KeyT";
-type KeyU = "KeyU";
-type KeyV = "KeyV";
-type KeyW = "KeyW";
-type KeyX = "KeyX";
-type KeyY = "KeyY";
-type KeyZ = "KeyZ";
-type MetaLeft = "MetaLeft";
-type MetaRight = "MetaRight";
-type Minus = "Minus";
-type NumLock = "NumLock";
-type Numpad0 = "Numpad0";
-type Numpad1 = "Numpad1";
-type Numpad2 = "Numpad2";
-type Numpad3 = "Numpad3";
-type Numpad4 = "Numpad4";
-type Numpad5 = "Numpad5";
-type Numpad6 = "Numpad6";
-type Numpad7 = "Numpad7";
-type Numpad8 = "Numpad8";
-type Numpad9 = "Numpad9";
-type NumpadAdd = "NumpadAdd";
-type NumpadDecimal = "NumpadDecimal";
-type NumpadDivide = "NumpadDivide";
-type NumpadMultiply = "NumpadMultiply";
-type NumpadSubtract = "NumpadSubtract";
-type PageDown = "PageDown";
-type PageUp = "PageUp";
-type Pause = "Pause";
-type Period = "Period";
-type PrintScreen = "PrintScreen";
-type Quote = "Quote";
-type ScrollLock = "ScrollLock";
-type Semicolon = "Semicolon";
-type ShiftLeft = "ShiftLeft";
-type ShiftRight = "ShiftRight";
-type Slash = "Slash";
-type Space = "Space";
-type Tab = "Tab";
+type AltLeft = 'AltLeft';
+type AltRight = 'AltRight';
+type ArrowDown = 'ArrowDown';
+type ArrowLeft = 'ArrowLeft';
+type ArrowRight = 'ArrowRight';
+type ArrowUp = 'ArrowUp';
+type Backquote = 'Backquote';
+type Backslash = 'Backslash';
+type Backspace = 'Backspace';
+type BracketLeft = 'BracketLeft';
+type BracketRight = 'BracketRight';
+type CapsLock = 'CapsLock';
+type Comma = 'Comma';
+type ContextMenu = 'ContextMenu';
+type ControlLeft = 'ControlLeft';
+type ControlRight = 'ControlRight';
+type Delete = 'Delete';
+type Digit0 = 'Digit0';
+type Digit1 = 'Digit1';
+type Digit2 = 'Digit2';
+type Digit3 = 'Digit3';
+type Digit4 = 'Digit4';
+type Digit5 = 'Digit5';
+type Digit6 = 'Digit6';
+type Digit7 = 'Digit7';
+type Digit8 = 'Digit8';
+type Digit9 = 'Digit9';
+type End = 'End';
+type Enter = 'Enter';
+type Equal = 'Equal';
+type Escape = 'Escape';
+type F1 = 'F1';
+type F2 = 'F2';
+type F3 = 'F3';
+type F4 = 'F4';
+type F5 = 'F5';
+type F6 = 'F6';
+type F7 = 'F7';
+type F8 = 'F8';
+type F9 = 'F9';
+type F10 = 'F10';
+type F11 = 'F11';
+type F12 = 'F12';
+type Home = 'Home';
+type Insert = 'Insert';
+type KeyA = 'KeyA';
+type KeyB = 'KeyB';
+type KeyC = 'KeyC';
+type KeyD = 'KeyD';
+type KeyE = 'KeyE';
+type KeyF = 'KeyF';
+type KeyG = 'KeyG';
+type KeyH = 'KeyH';
+type KeyI = 'KeyI';
+type KeyJ = 'KeyJ';
+type KeyK = 'KeyK';
+type KeyL = 'KeyL';
+type KeyM = 'KeyM';
+type KeyN = 'KeyN';
+type KeyO = 'KeyO';
+type KeyP = 'KeyP';
+type KeyQ = 'KeyQ';
+type KeyR = 'KeyR';
+type KeyS = 'KeyS';
+type KeyT = 'KeyT';
+type KeyU = 'KeyU';
+type KeyV = 'KeyV';
+type KeyW = 'KeyW';
+type KeyX = 'KeyX';
+type KeyY = 'KeyY';
+type KeyZ = 'KeyZ';
+type MetaLeft = 'MetaLeft';
+type MetaRight = 'MetaRight';
+type Minus = 'Minus';
+type NumLock = 'NumLock';
+type Numpad0 = 'Numpad0';
+type Numpad1 = 'Numpad1';
+type Numpad2 = 'Numpad2';
+type Numpad3 = 'Numpad3';
+type Numpad4 = 'Numpad4';
+type Numpad5 = 'Numpad5';
+type Numpad6 = 'Numpad6';
+type Numpad7 = 'Numpad7';
+type Numpad8 = 'Numpad8';
+type Numpad9 = 'Numpad9';
+type NumpadAdd = 'NumpadAdd';
+type NumpadDecimal = 'NumpadDecimal';
+type NumpadDivide = 'NumpadDivide';
+type NumpadMultiply = 'NumpadMultiply';
+type NumpadSubtract = 'NumpadSubtract';
+type PageDown = 'PageDown';
+type PageUp = 'PageUp';
+type Pause = 'Pause';
+type Period = 'Period';
+type PrintScreen = 'PrintScreen';
+type Quote = 'Quote';
+type ScrollLock = 'ScrollLock';
+type Semicolon = 'Semicolon';
+type ShiftLeft = 'ShiftLeft';
+type ShiftRight = 'ShiftRight';
+type Slash = 'Slash';
+type Space = 'Space';
+type Tab = 'Tab';
 
 type Key =
   | AltLeft
@@ -284,16 +284,16 @@ export const matchKeys = (
   e: KeyboardEvent,
   key: KeyCombination | KeyCombination[]
 ): boolean => {
-  if (typeof key == "string") {
+  if (typeof key == 'string') {
     key = [key];
   }
   return key.some((k) => {
-    const ctrl = k.includes("Ctrl");
-    const shift = k.includes("Shift");
-    const alt = k.includes("Alt");
-    const meta = k.includes("Meta");
+    const ctrl = k.includes('Ctrl');
+    const shift = k.includes('Shift');
+    const alt = k.includes('Alt');
+    const meta = k.includes('Meta');
     // only a modifier key
-    if (["Ctrl", "Shift", "Alt", "Meta"].includes(k)) {
+    if (['Ctrl', 'Shift', 'Alt', 'Meta'].includes(k)) {
       return (
         e.ctrlKey == ctrl &&
         e.shiftKey == shift &&
@@ -302,7 +302,7 @@ export const matchKeys = (
       );
     }
     // key or modifier(s) + key
-    const code = k.split("+").pop();
+    const code = k.split('+').pop();
     return (
       e.ctrlKey == ctrl &&
       e.shiftKey == shift &&
