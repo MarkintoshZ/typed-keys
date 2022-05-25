@@ -1,15 +1,39 @@
 # typed-keys
+
 ## Handle keyboard input with type hints!
 
-Screen Shot
+![](media/typed-keys-demo.gif)
 
 ## Example
-### React
+
 ```javascript
-// returns true if the keyboard input event is either Ctrl+P or Shift+Alt+K
-matchKeys(e, ["Ctrl+P", "Shift+Alt+K"])
+// returns true if the keyboard input event is the key R
+matchKeys(e, "R");
 ```
 
-Have fun coding!
+```javascript
+// check for multiple key combinations
+matchKeys(e, ["Ctrl+P", "Shift+Alt+K"]);
+```
 
-License: MIT
+## Install
+
+### Node.js
+
+```bash
+npm install typed-keys
+```
+
+or
+
+```bash
+yarn add typed-keys
+```
+
+### CDN
+
+```javascript
+<script src="https://cdn.jsdelivr.net/gh/MarkintoshZ/Scribbled@latest/dist/scribbled.min.js">
+```
+
+### _Have fun coding!_
